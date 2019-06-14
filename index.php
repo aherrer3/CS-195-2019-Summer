@@ -6,7 +6,7 @@
 	<title>CS 195 Sitemap</title>
 	<meta charset="utf-8">
 	<meta name="author" content="Alexa Herrera Condry">
-	<meta name="description" content="A sitemap to all my assignments for CS 195">
+	<meta name="description" content="A sitemap to all my assignments for CS 195 from Summer 2019">
 	<style type="text/css">
 		figure {
 			border: thin solid darkslategray;
