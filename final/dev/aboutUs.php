@@ -22,3 +22,6 @@ include ("top.php")
 </div>
 </div>
 </nav>
+<?php
+include ("footer.php")
+?>
