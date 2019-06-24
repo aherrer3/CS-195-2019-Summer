@@ -38,45 +38,17 @@ include ("top.php")
             <script>
                 var revcount = $("#existingReviews").children().length;
             </script>    
-
+       
 <!--            <script>
      document.getElementById("existingReviews").innerHTML = revcount;
 
      </script>-->
-            <script>
-                function myFunction() {
-                    var revCom = document.forms["myForm"]["comment"].value;
-                    var d = new Date();
-                    if (revCom !== "") {
-                        var node = document.createElement("LI");
-                        var textnode = document.createTextNode(d + ": "+ revCom);
-                        node.appendChild(textnode);
-                        document.getElementById("existingReviews").appendChild(node);
-                    }
-                    else{
-                         alert("Comment must be filled out");
-            return false;
-        }
-                    }
-               
-            </script>
+            <script type="text/javascript" src="js/addReview.js"></script>
         </div>
         <div class="col">
-            <h1>Enter a New Review</h1>
-            <p>As a new business, your feedback matters to us. Please enter a new review below</p>
-
-
-
-            <link rel="stylesheet" type="text/css" href="css/form.css">
-            </head>
-            <body>
-                <form name="myForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                    <label> Comment: <textarea rows="4" cols="50" name="comment"></textarea>
-                    </label>
-                    <input type="hidden" value="Submit">
-
-                </form>
-                <button onclick="myFunction()">Submit</button>
+            <?php
+            include("reviewForm.php")
+            ?>
 
 
         </div>
