@@ -9,6 +9,9 @@ include ("top.php")
 <li class="nav-item">
     <a class="nav-link" href="aboutUs.php"><?php echo $navPage2 ?></a>
 </li>
+<li class="nav-item">
+    <a class="nav-link" href="locations.php"><?php echo $navPage6 ?></a>
+</li>
 <li class="nav-item active">
     <a class="nav-link" href="gallery.php"><?php echo $navPage3 ?></a>
 </li>
