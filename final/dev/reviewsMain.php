@@ -26,7 +26,9 @@ include ("top.php")
 </div>
 </nav>
 
-
+<h1 class="text-center">
+    <?php echo $navPage5 ?>
+</h1>
 <div class="reviewcontainer">
     <div class="row">
         <div class="col-6">

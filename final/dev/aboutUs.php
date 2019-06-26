@@ -25,6 +25,9 @@ include ("top.php")
 </div>
 </div>
 </nav>
+<h1 class="text-center">
+    <?php echo $navPage2 ?>
+</h1>
 <?php
 include ("footer.php")
 ?>

@@ -8,7 +8,7 @@
         $navPage3 = "Gallery";
         $navPage4 = "Contact Us";
         $navPage5 = "Customer Reviews";
-        $navPage6 = "Locations";
+        $navPage6 = "Our Locations";
         $loc1LAT = 43.8338575;
         $loc1LNG =  -73.0554767;
         ?>
