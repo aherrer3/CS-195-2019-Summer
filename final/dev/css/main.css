@@ -9,15 +9,12 @@
 }
 
 .row {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
 .column {
-    -ms-flex: 50%;
     flex: 50%;
     padding: 0 4px;
 }
@@ -37,39 +34,62 @@ text-center{
 .col-6{
     text-align: center;
 }
-/*navbar-brand {
-    margin-top:2%; 
-}*/
+col-sm-4{
+    padding:3%
+}
+col-sm-8{
+    padding:3%;
+}
+h1,.about-me{
+    font-size: 2rem;
+    padding:2%;
+    text-align: center;
+}
+
 
 .open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .form-popup {
-  display: none;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
 }
 
 .form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
 }
 
-/*.form-container input[type=text], .form-container input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}*/
-
 .form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+    opacity: 1;
+}
+gallery img{
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 60px;
+}
+text-center{
+    padding:4%;
+    font-weight: bold;
+}
+/*Code from the official Google JS API site 
+(https://developers.google.com/maps/documentation/javascript/examples/marker-simple)*/
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+    height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }

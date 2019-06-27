@@ -1,10 +1,6 @@
 <?php
 include ("top.php")
 ?> 
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <li class="nav-item">
     <a class="nav-link" href="index.php"><?php echo $navPage1 ?>
         <span class="sr-only">(current)</span>
@@ -29,6 +25,8 @@ include ("top.php")
 </div>
 </div>
 </nav>
+<script src="js/contactFormValidation.js"></script>
+
 <h1 class="text-center">
     <?php echo $navPage4 ?>
 </h1>
@@ -36,39 +34,41 @@ include ("top.php")
     <div class="col-sm-4"> 
         <h2>Please contact us. Your business is greatly appreciated, thank you!</h2>
         <h3>Just use button to reveal the form</h3>
-        </div>
+    </div>
     <div class="col-sm-8">
-        
+
         <script src="js/toggleForm.js"></script>
 
         <button class="open-button" onclick="openForm()">Open Form</button>
 
         <div class="form-popup" id="contactForm">
+            <form name="contactForm1" action="thankYou.php"  method="post" onsubmit="return validateForm()">
 
-            <div class="form-group">
-                <label for="nameField">Name:</label>
-                <input type="text" class="form-control" id="nameField">
-            </div>
-            <div class="form-group">
-                <label for="emailField">Email Address:</label>
-                <input type="email" class="form-control" id="emailField" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="detailsField">Details:</label>
-                <textarea class="form-control"></textarea>
-            </div>
-            <script src="js/calDisplay.js"></script>
+                <div class="form-group">
+                    <label for="nameField" id="nameFieldLabel">Name:</label>
+                    <input type="text" class="form-control" name = "nameField" id="nameField" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailField" id="emailFieldLabel">Email Address:</label>
+                    <input type="email" class="form-control" name = "emailField" id="emailField" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="detailsField" id="detailsFieldLabel">Details:</label>
+                    <textarea class="form-control" name = "detailField" id = "detailsField"></textarea>
+                </div>
+                <script src="js/calDisplay.js"></script>
 
-             <div class="form-group">
-                <label for="dateField">Details:</label>
-                <input type="text" id="datepicker"></textarea>
-            </div>
+                <div class="form-group">
+                    <label for="datepicker" id="dateFieldLabel">Date:</label>
+                    <input type="text" name ="datepicker" id="datepicker">
+                </div>
 
-            <button type="submit" class="btn">Login</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
         </div>
     </div>
-    
+
 </div>
 <?php
 include ("footer.php")

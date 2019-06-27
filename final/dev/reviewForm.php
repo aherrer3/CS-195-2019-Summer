@@ -4,12 +4,10 @@
 
 
 <link rel="stylesheet" type="text/css" href="css/form.css">
-</head>
-<body>
-    <form name="myForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <label> Comment: <textarea rows="4" cols="50" name="comment"></textarea>
-        </label>
-        <input type="hidden" value="Submit">
+<form name="myForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <label> Comment: <textarea rows="4" cols="50" name="comment"></textarea>
+    </label>
+    <input type="hidden" value="Submit">
 
-    </form>
-    <button onclick="myFunction()">Submit</button>
+</form>
+<button onclick="myFunction()">Submit</button>

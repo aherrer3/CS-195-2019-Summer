@@ -32,6 +32,9 @@ include ("top.php")
         <?php echo $homeBase ?>
         <p>Welcome to the official website of my newly launched tattoo business</p>
     </div>
+    <h2>Prices List</h2>
+    <h3><strong>Consultation:</strong> $25/hr</h3>
+    <h3><strong>Tattoos:</strong> $50/hr</h3>
 </div>
 
 

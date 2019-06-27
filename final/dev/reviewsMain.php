@@ -40,15 +40,7 @@ include ("top.php")
                 <li class = "hide"> Filler Review, Doesn't Count, Fake Review</li>
 
             </ul>
-            <script>
-                var revcount = $("#existingReviews").children().length;
-            </script>    
-       
-<!--            <script>
-     document.getElementById("existingReviews").innerHTML = revcount;
-
-     </script>-->
-            <script type="text/javascript" src="js/addReview.js"></script>
+            <script src="js/addReview.js"></script>
         </div>
         <div class="col">
             <?php
