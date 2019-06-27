@@ -25,9 +25,11 @@ include ("top.php")
 </div>
 </div>
 </nav>
+
 <div class="jumbotron">
     <div class="container text-center">
-        <h1> <?php echo $busName ?> </h1>      
+        <h1> <?php echo $busName ?> </h1>   
+        <?php echo $homeBase ?>
         <p>Welcome to the official website of my newly launched tattoo business</p>
     </div>
 </div>

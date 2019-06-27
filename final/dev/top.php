@@ -11,6 +11,7 @@
         $navPage6 = "Our Locations";
         $loc1LAT = 43.8338575;
         $loc1LNG =  -73.0554767;
+        $homeBase = "Brandon, VT"
         ?>
 
     <head>
@@ -32,6 +33,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="images/logo1.png" width="50" height="50" class="d-inline-block align-top" alt="">
                     <?php echo $busName ?>
+                    
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
