@@ -33,17 +33,20 @@ text-center{
 }
 .col-6{
     text-align: center;
+    margin-bottom: 10%;
 }
 col-sm-4{
     padding:3%
 }
 col-sm-8{
     padding:3%;
+    font-size: 20pt;
 }
 h1,.about-me{
-    font-size: 2rem;
-    padding:2%;
+    font-size: 30pt;
+    padding: 2%;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -79,6 +82,7 @@ gallery img{
 text-center{
     padding:4%;
     font-weight: bold;
+    font-size: 35pt;
 }
 /*Code from the official Google JS API site 
 (https://developers.google.com/maps/documentation/javascript/examples/marker-simple)*/
@@ -92,4 +96,14 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+.h2, h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2%;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: 2%;
 }
