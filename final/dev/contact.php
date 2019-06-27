@@ -33,6 +33,10 @@ include ("top.php")
     <?php echo $navPage4 ?>
 </h1>
 <div class="row">
+    <div class="col-sm-4"> 
+        <h2>Please contact us. Your business is greatly appreciated, thank you!</h2>
+        <h3>Just use button to reveal the form</h3>
+        </div>
     <div class="col-sm-8">
         
         <script src="js/toggleForm.js"></script>
@@ -64,10 +68,7 @@ include ("top.php")
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
         </div>
     </div>
-    <div class="col-sm-4"> 
-        <h2>Please contact us. Your business is greatly appreciated, thank you!</h2>
-        <h3>Reveal the form on the left.</h3>
-        </div>
+    
 </div>
 <?php
 include ("footer.php")
