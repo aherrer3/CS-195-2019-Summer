@@ -4,11 +4,11 @@
     $myFullName = "Alexa Herrera Condry";
     $busName = "Nova Ink VT";
     $navPage1 = "Home";
-    $navPage2 = "About Us";
+    $navPage2 = "About";
     $navPage3 = "Gallery";
-    $navPage4 = "Contact Us";
+    $navPage4 = "Contact Me";
     $navPage5 = "Customer Reviews";
-    $navPage6 = "Our Locations";
+    $navPage6 = "Location";
     $loc1LAT = 43.8338575;
     $loc1LNG = -73.0554767;
     $homeBase = "Brandon, VT";
