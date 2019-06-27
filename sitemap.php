@@ -52,7 +52,13 @@
 		<li><a href="mod2_table.php">Module Two: Exercise</a></li>
 		<li><a href="mod3_payroll.php">Module Three: Exercise</a></li>
 		<li><a href="mod4_ajax&Json.php">Module Four: Exercise</a></li>
-
+		<li>Final Project:<ul>
+                <li><a href="final/dev/index.php">Final Dev</a></li>
+                <li><a href="live-final/index.php">Final Live</a></li>
+                <li><a href="final/video.mp4">Final Video Demo</a></li>
+                <li><a href="final/specDoc_completed.pdf">Final Spec Doc</a></li>
+            </ul>
+        </li>
 		</ol>
 
 	</body>
